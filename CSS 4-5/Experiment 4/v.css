@@ -1,0 +1,25 @@
+body{
+
+
+margin-right:500px;
+margin-left:500px;
+ background :#00FFFF url('as.jpeg') no-repeat top left;
+ 
+}
+p{background-color:#33ff00;}
+.container
+{
+text-align:center;
+}
+
+.center_div
+{
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:90%;
+background-color:#d0f0f6;
+text-align:left;
+padding:8px;
+}
+h1{color:RED;}

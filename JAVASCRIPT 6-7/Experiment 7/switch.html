@@ -1,0 +1,51 @@
+<html>
+<head></head>
+<h2 align="center">SWITCH STATEMENT</h2>
+<body bgcolor="yellow">
+
+<p align="center"><button type="button" onClick="m()">try it</button></p>
+<p align ="center" id="demo"></p>
+<script type="text/javascript">
+function m()
+{
+var x;
+var day=new Date().getDay();
+switch (day)
+{
+case 0:
+  x="Today it's Sunday";
+  break;
+case 1:
+  x="Today it's Monday";
+  break;
+case 2:
+  x="Today it's Tuesday";
+  break;
+case 3:
+  x="Today it's Wednesday";
+  break;
+case 4:
+  x="Today it's Thursday";
+  break;
+case 5:
+  x="Today it's Friday";
+  break;
+case 6:
+  x="Today it's Saturday";
+  break;
+
+default:
+       x="invalid day";
+
+}
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+<p align=center>Summited By</p>
+ <p align=center>Mr. Vikas R. Desale</p>
+ <p align =center>SE CSE</p>
+ <p align=center>E. No. BE14S05F005</p>
+ <p align=center>Subject:WEB TECHNOLOGY</p>
+ <p align=center>Subject Teacher: Miss. </p>
+</body>
+</html>
